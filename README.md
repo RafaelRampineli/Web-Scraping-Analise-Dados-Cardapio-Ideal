@@ -21,3 +21,11 @@ Para saber mais detalhes sobre alimentos e suas características, acesse:
 Aqui tem um material de referência adicional que ajuda a explicar os benefícios da Ciência de Dados aplicada à Nutrição:
 
 <a href="https://conferences.oreilly.com/strata/strata-ca-2019/public/schedule/detail/72551">Nutrition Data Science</a>
+
+## Fonte de Dados
+
+Nossa fonte de dados para o Web Scraping, será o portal <a href="https://www.allrecipes.com/">All Recipes</a> que contém receitas deliciosas. Navegue pelo site para compreender como os dados estão organizados. São várias páginas, cada qual com diversas receitas.
+
+Observe que o <a href="https://www.allrecipes.com/">All Recipes</a> possui dois layouts HTML diferentes para suas páginas de receita, um layout regular e um layout que suporta a compra de ingredientes diretamente da página da receita. Esses dois layouts têm as informações que precisamos em locais diferentes, portanto, precisamos diferenciá-los durante a raspagem dos dados. Se o elemento de título que procuramos inicialmente estiver definido como 'Nenhum', precisamos procurar os elementos onde eles estariam no segundo layout (comprador).
+
+Vamos então extrair diversas receitas, limpar os dados e avaliar ingredientes, métodos de preparo e outros dados disponíveis.
