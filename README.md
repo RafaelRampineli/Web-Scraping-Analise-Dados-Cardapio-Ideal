@@ -12,8 +12,6 @@ Neste Lab vamos analisar um conjunto de dados pouco comum, mas que vai ajudar vo
 
 E para responder nossas perguntas, vamos extrair e analisar a composição de receitas. Sim, isso mesmo. Receitas. De risoto, de frango e até de Fettuccine Alfredo!
 
-### O Web Scraping deste Lab é pesado e leva quase 50 minutos! Alguns parâmetros poderão reduzir esse tempo, mas nesse caso reduzirá também o volume de dados.
-
 Para saber mais detalhes sobre alimentos e suas características, acesse:
 
 <a href="https://www.abia.org.br/vsn/">ABIA - Associaçao Brasileira da Indústria de Alimentos</a>
