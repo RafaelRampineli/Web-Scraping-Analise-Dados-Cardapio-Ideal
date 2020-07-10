@@ -29,3 +29,10 @@ Nossa fonte de dados para o Web Scraping, será o portal <a href="https://www.al
 Observe que o <a href="https://www.allrecipes.com/">All Recipes</a> possui dois layouts HTML diferentes para suas páginas de receita, um layout regular e um layout que suporta a compra de ingredientes diretamente da página da receita. Esses dois layouts têm as informações que precisamos em locais diferentes, portanto, precisamos diferenciá-los durante a raspagem dos dados. Se o elemento de título que procuramos inicialmente estiver definido como 'Nenhum', precisamos procurar os elementos onde eles estariam no segundo layout (comprador).
 
 Vamos então extrair diversas receitas, limpar os dados e avaliar ingredientes, métodos de preparo e outros dados disponíveis.
+
+## IMPROVEMENT:
+
+- Qual a correlação entre os ingredientes mais comuns?
+- Realizar a coleta de dados de calorias sobre os ingredientes e prever o cardápio que mantenha o peso constante?
+- Agrupar os ingredientes por características similares utilizando modelos não supervisionados.
+
